@@ -1,0 +1,51 @@
+.acord-princi{
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.acord-1{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.acord-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.texto-fade5{
+    font-family: Raleway;
+    font-size: 1.2em;
+    color: rgb(3, 3, 3);
+    text-align: justify;
+    margin: 3em;
+}
+.titulo-principal3{
+    font-family: LemonMilk;
+    justify-self: center;
+    font-size: 2.3em;
+    color: white;
+    text-decoration-line: solid black;
+}
+@media screen and (max-width: 1158px) {
+    
+    .acord-princi{
+        flex-direction: column;
+    }
+    .acord-1{
+        width: 90%;
+    }
+    .acord-2{
+        width: 90%;
+    }
+
+}

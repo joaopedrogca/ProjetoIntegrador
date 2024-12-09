@@ -1,0 +1,105 @@
+.center-cards2:hover .cards_perguntas {
+    transition: 0.3s;
+    margin-bottom: 20%;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.781));
+    background-color: rgb(149, 255, 250);
+}
+.center-cards2:hover .cards_perguntas .pergunta {
+    color: black
+}
+
+.cards_perguntas {
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+    display: block;
+    height: 70px;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid rgb(38, 123, 235);
+    background-color: rgb(188, 255, 252);
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 5px rgba(43, 127, 206, 0.781));
+    font-weight: bold;
+}
+
+
+.separate_pergunta {
+    background-color: #7dabf4;
+    height: 15px;
+}
+
+.text-pergunta {
+    font-family: Raleway;
+    color: black;
+    text-align: justify;
+    background-color: #7dabf4;
+}
+
+.center-cards2:hover {
+    color: antiquewhite;
+
+}
+
+.pergunta {
+    color: black;
+    margin: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-family: Raleway;
+}
+
+.div-buttons2 {
+    display: flex;
+    flex-direction: row;
+    height: 13em;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-cards2 {
+    display: flex;
+    flex-direction: column;
+    height: 7em;
+    width: 15em;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha-t {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.conteudo-perg {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 3rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2rem;
+    text-align: justify;
+    justify-self: center;
+    align-self: center;
+}
+
+@media screen and (max-width: 1451px) {
+    .div-buttons2 {
+        flex-wrap: wrap;
+        overflow: auto;
+        scrollbar-color: red;
+
+    }
+    .conteudo-perg {
+        width: 90%;
+    }
+
+}

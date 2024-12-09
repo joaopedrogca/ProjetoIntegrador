@@ -1,0 +1,351 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+@font-face {
+    font-family: Aileron;
+    src: url(../fonts/Ailerons-Typeface.otf);
+}
+
+@font-face {
+    font-family: Corinthians;
+    src: url(../fonts/FONT-CORINTHIANS-2023.otf);
+
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url(../fonts/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+    font-family: LemonMilk R;
+    src: url(../fonts/LEMONMILK-Medium.otf);
+}
+
+.titulo-principal {
+    font-family: LemonMilk;
+    justify-self: center;
+    font-size: 2.5em;
+    color: white;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+    text-decoration-line: solid black;
+}
+
+.titulo-principal2 {
+    font-family: LemonMilk;
+    justify-self: center;
+    font-size: 2.3em;
+    color: white;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+    text-decoration-line: solid black;
+}
+
+.titulo-paulasouza {
+    font-family: LemonMilk;
+    justify-self: center;
+    font-size: 1.5em;
+    color: white;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+    text-decoration-line: solid black;
+}
+
+.container-fatec {
+    background: linear-gradient(#021155 20%, #036955);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-fatec2 {
+    background: linear-gradient(#040c3f 20%, #1e3273);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre-curso {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-curso2 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 5em;
+}
+
+.cards-total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35em;
+}
+
+.cards2 {
+    display: block;
+    flex-direction: column;
+    width: 22em;
+    margin: 1em;
+    border-radius: 2em;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: none;
+    overflow: hidden;
+    display: block;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+}
+
+.cards2:hover {
+    background-color: #01010156;
+    transition: 0.5s;
+    margin-bottom: 5em;
+}
+
+.cards3active {
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-color: rgb(255, 255, 255);
+    border-radius: 3em;
+}
+
+.titulo-cards2 {
+    font-family: LemonMilk;
+    justify-self: center;
+    font-size: 1.7em;
+    color: white;
+}
+
+.texto-fade2 {
+    font-family: Raleway;
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+    margin: 2em;
+
+}
+
+.texto-fade3 {
+    font-family: Raleway;
+    font-size: 1.3em;
+    color: white;
+    text-align: justify;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+}
+
+.texto-fade4 {
+    font-family: Raleway;
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+    margin: 2em;
+    margin-left: 1em;
+}
+
+.texto-fade10 {
+    font-family: Raleway;
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+}
+
+.metade {
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.metade2 {
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.central{
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.containerTITULO {
+    margin-top: 4rem;
+    margin-left: 8rem;
+    
+}
+
+.containerTITULO2 {
+    margin-top: 1em;
+    margin-left: 8em;
+    background-color: #00000056;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2em;
+}
+
+.containerTITULO3 {
+    margin-top: 1em;
+    background-color: #00000056;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2em;
+}
+
+.containerTITULO2:hover {
+    border: 2px solid white;
+    transition: 0.5;
+}
+
+.containerpaulasouza {
+    margin-top: 4em;
+    margin-left: 8em;
+}
+
+.imagepaula {
+    width: 5em;
+    border-radius: 1em;
+    margin-left: 0.5em;
+    margin: 2em;
+}
+
+.imageicon {
+    border-radius: 1em;
+    width: 40%;
+}
+
+.imagefatec {
+
+    clip-path: polygon(0 100%, 20% 0, 100% 0, 100% 100%);
+    mask-image: linear-gradient(to bottom, white 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, white 70%, transparent 100%);
+}
+
+.imagemercado {
+    margin: 2rem;
+    width: 80%;
+    border-radius: 2em;
+    mask-image: linear-gradient(to bottom, white 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, white 70%, transparent 100%);
+}
+
+.mercad-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+.mercad-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+
+}
+
+.sobre-curso3 {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 2em;
+    width: 60%;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* COR DO FUNDO POR MATÉRIA*/
+.DWeb-F {
+    background: linear-gradient(#021155 20%, #036955);
+}
+
+.ES-F {
+    background: linear-gradient(#021155 20%, #010101);
+}
+
+.DD-F {
+    background: linear-gradient(#021155 20%, rgb(31, 3, 109));
+}
+
+.ALP-F {
+    background: linear-gradient(#021155 20%, #012519);
+}
+
+.SO-F {
+    background: linear-gradient(#021155 20%, #02104d);
+}
+
+.MBD-F {
+    background: linear-gradient(#021155 20%, #210130);
+}
+
+.MatC-F {
+    background: linear-gradient(#021155 20%, #048f8f);
+}
+
+.EDD-F {
+    background: linear-gradient(#021155 20%, #0145ff);
+}
+
+.GP-F {
+    background: linear-gradient(#021155 20%, #1a6832);
+}
+
+.IEC-F {
+    background: linear-gradient(#021155 20%, #460303);
+}
+
+.IOTA-F {
+    background: linear-gradient(#021155 20%, #050022);
+}
+
+.CPN-F {
+    background: linear-gradient(#021155 20%, #220933);
+}
+
+
+@media screen and (max-width: 1158px) {
+    .metade2 {
+        width: 0;
+
+    }
+
+    .metade {
+        align-items: center;
+    }
+
+    .containerTITULO {
+        margin-left: 4em;
+        margin-right: 4em;
+
+    }
+
+    .containerTITULO2 {
+        margin: 1em;
+    }
+
+    .titulo-principal2 {
+        text-align: center;
+    }
+
+    .containerpaulasouza {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .imageicon {
+        width: 0;
+    }
+}

@@ -1,0 +1,27 @@
+.bg {
+    background: linear-gradient(#262a58, #01052c 40%);
+
+}
+
+.paragraf {
+    text-align: justify;
+    color: white;
+    font-family: Raleway;
+}
+
+.paragrafs {
+    color: rgb(255, 255, 255);
+    text-align: start;
+    font-family: Raleway;
+}
+
+.top {
+    text-align: justify;
+    text-decoration: none;
+    color: white;
+    font-family: Raleway;
+}
+
+.top:hover {
+    color: rgb(7, 235, 216);
+}

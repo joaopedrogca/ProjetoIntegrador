@@ -1,0 +1,337 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+@font-face {
+    font-family: Aileron;
+    src: url(../fonts/Ailerons-Typeface.otf);
+}
+@font-face {
+    font-family: Corinthians;
+    src: url(../fonts/FONT-CORINTHIANS-2023.otf);
+    
+}
+@font-face {
+    font-family: LemonMilk;
+    src: url(../fonts/LEMONMILK-Bold.otf);
+}
+@font-face {
+    font-family: LemonMilk R;
+    src: url(../fonts/LEMONMILK-Medium.otf);
+}
+
+html{
+    font-family: LemonMilk R;
+}
+body{
+    width: 100%;
+    margin: 0;
+}
+.content-disc
+{
+     display: flex;
+    flex-direction: row;
+    background-image: 
+        linear-gradient( to right,#036955 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/WEB.png); 
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+    height: auto;
+}
+.imagem-idols{
+    position: absolute;
+}
+.div1-disc {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 4rem;
+    height: 600px;
+    width:50%
+   
+ }
+ .titulo-materias{
+    margin-top: 0.2em;
+    font-size: 2em;
+    font-family: LemonMilk;
+    color: white;
+    transition: 0.5;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+    text-align: left;
+    
+}
+.text-disc{
+    display: flex;
+    font-family: Raleway;
+    font-size: 1.2em;
+    color: white;
+    word-break:keep-all;
+    transition: 0.5;
+    margin-top: 2em;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+    height: 420px;
+    
+}
+
+
+.div-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 12em;
+    justify-content: center;
+    align-items: center;
+}
+.center-cards{
+    display: flex;
+    flex-direction: column;
+    height: 12em;
+    width: 12em;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    background-color: rgba(100, 17, 177, 0);
+    width: 10em;
+    height: 7em;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: none;
+    overflow: hidden;
+    display: block;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+    padding: 2%;
+}
+.center-cards:hover .cards{
+    color: white;
+    transition: 0.3s;
+    margin-bottom: 20%;
+    filter: drop-shadow(0px 15px 15px rgba(111, 111, 111, 0.781));
+  }
+.active2 {
+    border: 3px solid black;
+    border-color: rgb(0, 110, 255);
+    border-radius: 25px;
+    margin: 20px;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.781));
+    
+}
+.inactive {
+    opacity: 0.6;
+}
+.cards img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+
+.div-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5;
+    background-color: rgba(9, 161, 161, 0);
+    margin-bottom: 4em;
+    
+}
+.info{ 
+    width: 11rem;
+    display: flex;
+    flex-direction: row;
+    margin-right: 3rem;
+    transition: 0.5;
+    align-items: center;
+    text-align: left;
+}
+
+.title-div{
+    font-family: LemonMilk;
+    font-size: 1.5em;
+}
+/* VARIAÇÕES DE IMAGENS */
+
+.DWeb, .ES, .DD, .ALP, .SO, .MBD, .MatC, .EDD, .GP, .IOTA, .IEC, .CPN
+{
+    background: 
+        linear-gradient( to right, rgb(0, 0, 0) 15%, rgba(245, 244, 244, 0)), 
+        url(../img/WEB.png); 
+    background-position: center;
+    background-size:cover;
+    text-align: justify;
+    display: flex;
+}
+.DWeb
+{
+    background-image: 
+        linear-gradient( to right,#036955 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/WEB.png); 
+}
+.ES{
+    background-image: 
+        linear-gradient( to right,#000000 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/ES-back.jpg); 
+}
+.DD
+{
+    background-image: 
+        linear-gradient( to right, rgb(31, 3, 109)50%, rgba(245, 244, 244, 0)90%), 
+        url(../img/DD-back.webp); 
+}
+.ALP
+{
+    background-image: 
+        linear-gradient( to right,#012519 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/linguagens-de-programacao.jpeg.webp);
+        size: 20em 
+}
+.SO
+{
+    background-image: 
+        linear-gradient( to right,#02104d 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/SO-back.jpg);
+}
+.MBD
+{
+    background-image: 
+        linear-gradient( to right,#210130 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/mbd-back2.png);
+}
+.MatC
+{
+    background-image: 
+        linear-gradient( to right,#048f8f 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/mat.jpg);
+}
+.EDD
+{
+    background-image: 
+        linear-gradient( to right,#0145ff 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/mat.jpg);
+}
+.GP
+{
+    background-image: 
+        linear-gradient( to right,#1a6832 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/GREEN.avif);
+}
+.IEC
+{
+    background-image: 
+        linear-gradient( to right,#460303 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/INTEGRACAO.png);
+}
+.IOTA
+{
+    background-image: 
+        linear-gradient( to right, #050022 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/IOTBACK.webp);
+}
+.CPN
+{
+    background-image: 
+        linear-gradient( to right,#220933 50%, rgba(205, 152, 152, 0)90%), 
+        url(../img/COMPN.webp);
+}
+
+
+@media screen and (max-width: 1100px) {
+    .div-buttons{
+        flex-wrap: wrap;
+        overflow: auto;
+        scrollbar-color: red;
+        
+    }
+    .content-disc{
+        margin-left: 0;
+        justify-content: center;
+          
+    }
+  
+    .text-disc{
+        font-size: 1.2em;
+    }
+    .div1-disc {
+        margin-left: 0em;
+        margin-top: 4em;
+        justify-content: center;
+        justify-items: center;
+        width: 90%;
+
+    }
+    .titulo-materias{
+        text-align: center;
+        justify-self: center;
+    }
+   
+  }
+
+  @media screen and (max-width: 1310px) {
+    .div-info{
+        flex-direction: column;
+        margin-top: 1%;
+    }
+    .info{
+        width: 90%;
+    }
+    .div-buttons{
+        flex-wrap: wrap;
+        overflow: auto;
+        scrollbar-color: red;
+        
+    }
+    .DWeb
+        {
+            background-image: none;
+            background-color: #036955;
+        }
+        .ES{
+            background-color: #000000;
+        }
+        .DD
+        {
+            background-color: rgb(31, 3, 109);
+        }
+        .ALP
+        {
+            background-color: #012519;
+        }
+        .SO
+        {
+            background-color: #02104d;
+        }
+        .MBD
+        {
+            background-color: #210130;
+        }
+        .MatC
+        {
+            background-color: #048f8f;
+        }
+        .EDD
+        {
+            background-color: #0145ff;
+        }
+        .GP
+        {
+            background-color: #1a6832; 
+        }
+        .IEC
+        {
+            background-color: #460303;
+        }
+        .IOTA
+        {
+            background-color:  #050022;
+        }
+        .CPN
+        {
+            background-color: #220933;
+        }
+}
+
